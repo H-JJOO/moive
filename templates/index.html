@@ -82,13 +82,19 @@
 
             margin-top: 20px;
         }
+
         .mybtns > button {
             margin-right: 10px;
         }
+
+        .card-group {
+            margin-bottom: 20px;
+        }
+
     </style>
     <script>
-        $(document).ready(function(){
-          listing();
+        $(document).ready(function () {
+            listing();
         });
 
         function listing() {
@@ -144,10 +150,11 @@
             });
         }
 
-        function open_box(){
+        function open_box() {
             $('#post-box').show()
         }
-        function close_box(){
+
+        function close_box() {
             $('#post-box').hide()
         }
     </script>
@@ -184,6 +191,51 @@
     </div>
 </div>
 <div class="mycards">
+    <div class="card-group">
+        <div class="card">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-badge-ad"
+                 viewBox="0 0 16 16">
+                <path d="m3.7 11 .47-1.542h2.004L6.644 11h1.261L5.901 5.001H4.513L2.5 11h1.2zm1.503-4.852.734 2.426H4.416l.734-2.426h.053zm4.759.128c-1.059 0-1.753.765-1.753 2.043v.695c0 1.279.685 2.043 1.74 2.043.677 0 1.222-.33 1.367-.804h.057V11h1.138V4.685h-1.16v2.36h-.053c-.18-.475-.68-.77-1.336-.77zm.387.923c.58 0 1.002.44 1.002 1.138v.602c0 .76-.396 1.2-.984 1.2-.598 0-.972-.449-.972-1.248v-.453c0-.795.37-1.24.954-1.24z"/>
+                <path d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z"/>
+            </svg>
+            <img src="https://shop-phinf.pstatic.net/20220829_132/1661745212718m4lFW_PNG/%B1%D9%BC%BA%BF%D5%C7%AA%B5%E5_%B7%CE%B0%ED%B0%A1%B7%CE_%C3%D6%C1%BE.png?type=w640"
+                 class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">근성왕푸드</h5>
+                <p class="card-text">근성왕의 푸짐한 간편식단 근성왕푸드! #근성왕덮밥</p>
+                <a href="https://smartstore.naver.com/taeminfood/?NaPm=ct%3Dl9r3wpbc%7Cci%3Dcheckout%7Ctr%3Dds%7Ctrx%3D%7Chk%3D77ac62e6969bac848e005f915b28754d97940281"
+                   class="btn btn-primary" target="_blank">해당 페이지로 이동</a>
+            </div>
+        </div>
+        <div class="card">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-badge-ad"
+                 viewBox="0 0 16 16">
+                <path d="m3.7 11 .47-1.542h2.004L6.644 11h1.261L5.901 5.001H4.513L2.5 11h1.2zm1.503-4.852.734 2.426H4.416l.734-2.426h.053zm4.759.128c-1.059 0-1.753.765-1.753 2.043v.695c0 1.279.685 2.043 1.74 2.043.677 0 1.222-.33 1.367-.804h.057V11h1.138V4.685h-1.16v2.36h-.053c-.18-.475-.68-.77-1.336-.77zm.387.923c.58 0 1.002.44 1.002 1.138v.602c0 .76-.396 1.2-.984 1.2-.598 0-.972-.449-.972-1.248v-.453c0-.795.37-1.24.954-1.24z"/>
+                <path d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z"/>
+            </svg>
+            <img src="https://yt3.ggpht.com/ytc/AMLnZu8j6RLVfBbh7HfPId6T2SrnzC7OANQm90xqSD-E=s88-c-k-c0x00ffffff-no-rj" class="card-img-top" alt="..." style="width: 80px">
+            <div class="card-body">
+                <h5 class="card-title">뉴미Nyumi</h5>
+                <p class="card-text">뉴미의 매일 새로운 날들 Nyumi's Nyu-day(YouTube)</p>
+                <a href="https://www.youtube.com/channel/UCxsVSoN6V_rFBdm61kX70Xg"
+                   class="btn btn-primary" target="_blank">해당 페이지로 이동</a>
+            </div>
+        </div>
+        <div class="card">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-badge-ad"
+                 viewBox="0 0 16 16">
+                <path d="m3.7 11 .47-1.542h2.004L6.644 11h1.261L5.901 5.001H4.513L2.5 11h1.2zm1.503-4.852.734 2.426H4.416l.734-2.426h.053zm4.759.128c-1.059 0-1.753.765-1.753 2.043v.695c0 1.279.685 2.043 1.74 2.043.677 0 1.222-.33 1.367-.804h.057V11h1.138V4.685h-1.16v2.36h-.053c-.18-.475-.68-.77-1.336-.77zm.387.923c.58 0 1.002.44 1.002 1.138v.602c0 .76-.396 1.2-.984 1.2-.598 0-.972-.449-.972-1.248v-.453c0-.795.37-1.24.954-1.24z"/>
+                <path d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z"/>
+            </svg>
+            <img src="https://tistory2.daumcdn.net/tistory/5626033/attach/104694607f6341509fdd469f6ee18984" class="card-img-top" alt="..." style="width: 125px">
+            <div class="card-body">
+                <h5 class="card-title">A Developing Developer(개발일지)</h5>
+                <p class="card-text">성장하는 개발자가 되기위한 개발일지 블로그</p>
+                <a href="https://icepri3535.tistory.com/"
+                   class="btn btn-primary" target="_blank">해당 페이지로 이동</a>
+            </div>
+        </div>
+    </div>
     <div class="row row-cols-1 row-cols-md-4 g-4" id="cards-box">
 
     </div>
